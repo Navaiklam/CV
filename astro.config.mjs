@@ -8,7 +8,6 @@ export default defineConfig({
   },
   site: {
     url: 'https://navaiklam.github.io/CV',
-    base: '/CV',
   },
   integrations: [tailwind()]
 });
