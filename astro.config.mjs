@@ -1,5 +1,14 @@
+// astro.config.mjs
+
+import { defineConfig } from 'astro';
+
 export default defineConfig({
-    site: 'https://navaiklam.github.io',
+  buildOptions: {
+    out: "dist",
+  },
+  site: {
+    url: 'https://navaiklam.github.io/CV',
     base: '/CV',
+  },
   integrations: [tailwind()]
 });
