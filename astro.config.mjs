@@ -7,7 +7,7 @@ export default defineConfig({
   buildOptions: {
     out: "dist",
   },
-    site: 'https://navaiklam.github.io/CV',
+    site: 'https://navaiklam.github.io/',
     base: '/CV',
   integrations: [tailwind()],
 });
