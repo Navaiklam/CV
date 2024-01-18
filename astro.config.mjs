@@ -3,8 +3,8 @@ export default defineConfig({
     out: "dist",
   },
   site: {
-    // Configura la base para GitHub Pages
-    base: "/CV/",
+    url: 'https://navaiklam.github.io',
+    base: '/CV',
   },
   integrations: [tailwind()]
 });
